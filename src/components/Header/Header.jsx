@@ -1,14 +1,29 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import React from "react"
+import { menu } from "./menu"
+import styles from "./Header.module.scss"
 
-export class Header extends Component {
-  static propTypes = {}
 
-  render() {
-    return (
-      <div> Здесь будет приложение </div>
-    )
-  }
+const Header = () => {
+  return <div className={styles.header}>
+       <div className= {styles.logo}>
+         <img src="https://cdn.svgporn.com/logos/slack.svg" alt="" height = "30" />
+       </div>
+       <div className= {styles.menuwrapper}>
+         <ul className= {styles.menu}>
+           {menu.map((item, idx) =>(
+         <li key={`menu-item ${idx}`}>
+           <a href={item.link}>{item.title}</a>
+         </li>
+         ))} 
+         </ul>
+
+       </div>
+       <div className={styles.buttonwrapper}>
+         <button className={styles.buttonlogin}>Login</button>
+         <button className={styles.buttonsignup}>Sign up</button>
+       </div>
+    </div>
+  
 }
 
 export default Header

@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+   
+}
+
+.menuwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style-type: none;
+
+    > li {
+        display: inline-block;
+    > a {
+        display: block;
+        font-size: 16px;
+        color: #222;
+        padding: 0 6px;
+    }
+    }
+}
