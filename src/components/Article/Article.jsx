@@ -1,19 +1,18 @@
 import React from 'react';
-import styles from "./Articlemodule.scss"
+import styles from "./Article.module.scss"
 
 const Article = () => {
     return (
            <div className={styles.wraper}>
            <div className={styles.wrapperArticle}>
-            <div className={styles.text}>На этой странице будет храниться какаяя нибудь информация</div>
-            <h3 className={styles.zagolovok}>Здесь храниться самая интересная статья</h3>
-            <div className={styles.text} >Рассках о том как я изучал реакт нативный</div>
-            <button className={styles.button}>Нжми на меня</button>
-            </div>
-            <div className={styles.fotostakan}>
-                <img  src="https://cdn.pixabay.com/photo/2017/02/01/19/54/beverage-2031238__480.png" alt="" />
+            <div className={styles.text}>Нам доверяют такие проффессионалы как вы...</div>
+            <h3 className={styles.zagolovok}>Создаю сайты как у веб-студий, по ценам фриланса</h3>
+            <div className={styles.oneline}></div>
+             <div className={styles.text}>Создание привлекательных и эффективных веб-сайтов, которые отражают ваш бренд, повышают кэофицент конверсии и значительно повышают ваш доход</div>
+            <button className={styles.button}>Портфолио работ</button>
             </div>
             </div>
+           
             
     );
 };

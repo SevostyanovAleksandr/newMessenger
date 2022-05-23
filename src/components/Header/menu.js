@@ -1,14 +1,30 @@
 export const menu = [
     {
-      title: "Products",
+      title: "Главная",
       link: "/",
     },
     {
-      title: "Price",
+      title: "Обо мне",
       link: "/",
     },
     {
-      title: "Downloads",
+      title: "Сервис",
       link: "/",
-    }
+    },
+    {
+      title: "Работы",
+      link: "/",
+    },
+    {
+      title: "Цены",
+      link: "/",
+    },
+    {
+      title: "Контакты",
+      link: "/",
+    },
+    {
+      title: "Отзывы",
+    link: "/",
+  }
   ]

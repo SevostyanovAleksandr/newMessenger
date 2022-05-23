@@ -5,8 +5,8 @@ import styles from "./Header.module.scss"
 
 const Header = () => {
   return <div className={styles.header}>
-       <div className= {styles.logo}>
-         <img src="https://cdn.svgporn.com/logos/slack.svg" alt="" height = "30" />
+           <div className= {styles.logo}>
+         <img src="https://cdn.svgporn.com/logos/nats.svg" alt="" height = "60px"  />
        </div>
        <div className= {styles.menuwrapper}>
          <ul className= {styles.menu}>
@@ -19,10 +19,11 @@ const Header = () => {
 
        </div>
        <div className={styles.buttonwrapper}>
-         <button className={styles.buttonlogin}>Login</button>
-         <button className={styles.buttonsignup}>Sign up</button>
+         <button className={styles.buttonlogin}>Связаться со мной</button>
        </div>
     </div>
+    
+    
   
 }
 

@@ -16,13 +16,18 @@
     list-style-type: none;
     padding-right: 10px;
     border-radius: 2px solid #EDEDED;
+  
+    
 
+    
     > li {
         display: inline-block;
     > a {
         display: block;
-        font-size: 16px;
-        color: #222;
+        font-size: 20px;
+        font-family: 'Comfortaa', cursive;
+        color: #dde8da;
+        font-weight: 400;
         padding: 0 6px;
         text-decoration: none;
 
@@ -37,23 +42,26 @@
 }
 
 .buttonlogin {
-    font-size: 15px;
-    color:#222;
-    padding: 0 6px;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-     outline: none;
-     background-color: transparent;
-}
-
-    
-   
-
-.buttonsignup {
-    padding: 2px 4px;
-    border: 1px sol1d #E1E1E1;
-    padding-left: 10px;
-    margin-left: 15px;
-    cursor: pointer;
-}
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: #dde8da;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .buttonlogin:hover {
+    background: #00cfa2;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: #dde8da;
+    transform: translateY(-7px);
+  }  
