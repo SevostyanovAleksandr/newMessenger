@@ -1,0 +1,63 @@
+.TextDeveloper{
+        display: flex;
+        font-size: 50px;
+        font-family: 'Comfortaa', cursive;
+        color: #2a4623;
+        font-weight:bold;
+        padding: auto;
+        justify-content: center;
+        align-content: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+}
+
+.wrappercontenttext {
+        display: flex;
+        font-size: 20px;
+        font-family: 'Comfortaa', cursive;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+        }
+
+.contentleft {
+    width: 800px;
+    padding: 20px 20px;
+}
+.contentright {
+    width: 800px;
+    padding: 20px 20px;
+}
+
+.logotext {
+       width: 400px;
+        font-size: 20px;
+        font-family: 'Comfortaa', cursive;
+}
+
+.zagolovoklogo {
+    width: 400px;
+        font-size: 30px;
+        font-family: 'Comfortaa', cursive;
+        display: flex;
+        justify-content:space-around;
+        align-items:flex-end;
+        padding-top: 0px;
+    
+       
+}
+
+.wrappercontenttextlogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+.logo {
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+
+}

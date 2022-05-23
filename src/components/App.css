@@ -3,3 +3,10 @@
     background-size: cover;
     height: 100vh;
 }
+
+
+.bg_imageservise {
+  padding-top: 100px;
+  background-image: url(https://vladivostok.ankershop.ru/upload/iblock/c30/SRK038P1_ban.jpg);
+  background-size:cover;
+}
