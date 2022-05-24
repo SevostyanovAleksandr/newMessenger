@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./Servise.module.scss"
 
 const Article = () => {
-    return (<div className={styles.wrapermain}>
+    return (<div id="servise" className={styles.wrapermain}>
            <div className={styles.wraper}>
            <div className={styles.wrapperArticle}>
             <h3 className={styles.zagolovok}>Я предлагаю услуги, основанные на огромном опыте</h3>
@@ -18,7 +18,9 @@ const Article = () => {
                     <img src="https://s.tmimgcdn.com/scr/35500/35506_01_home_original.jpg" alt=""width="200px" height="300px" />
                 </div>
             </div>
+        
             </div>
+              
     );
 };
 

@@ -3,7 +3,7 @@ import styles from "./Article.module.scss"
 
 const Article = () => {
     return (
-           <div className={styles.wraper}>
+           <div id="article" className={styles.wraper}>
            <div className={styles.wrapperArticle}>
             <div className={styles.text}>Нам доверяют такие проффессионалы как вы...</div>
             <h3 className={styles.zagolovok}>Создаю сайты как у веб-студий, по ценам фриланса</h3>

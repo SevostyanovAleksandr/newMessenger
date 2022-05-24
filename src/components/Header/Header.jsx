@@ -3,20 +3,35 @@ import { menu } from "./menu"
 import styles from "./Header.module.scss"
 
 
+
 const Header = () => {
-  return <div className={styles.header}>
+  return <div id = "header" className={styles.header}>
            <div className= {styles.logo}>
          <img src="https://cdn.svgporn.com/logos/nats.svg" alt="" height = "60px"  />
        </div>
+       
        <div className= {styles.menuwrapper}>
-         <ul className= {styles.menu}>
-           {menu.map((item, idx) =>(
-         <li key={`menu-item ${idx}`}>
-           <a href={item.link}>{item.title}</a>
-         </li>
-         ))} 
-         </ul>
-
+           <div className="hrefname">
+         <a className="hrefnamea" href="">Главная</a>
+         </div>
+         <div className="hrefname">
+         <a href="#contentmy">Обо мне</a>
+         </div>
+         <div className="hrefname">
+         <a href="#servise">Сервис</a>
+         </div>
+         <div className="hrefname">
+         <a href="">Работы</a>
+         </div>
+         <div className="hrefname">
+         <a href="">Цены</a>
+         </div>
+         <div className="hrefname">
+         <a href="">Контакты</a>
+         </div>
+         <div className="hrefname">
+         <a href="">Отзывы</a>
+         </div>
        </div>
        <div className={styles.buttonwrapper}>
          <button className={styles.buttonlogin}>Связаться со мной</button>

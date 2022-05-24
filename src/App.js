@@ -7,6 +7,11 @@ import Contentmy from "./components/contentmy/Сontentmy"
 import Tada from 'react-reveal/Tada';
 import RubberBand from 'react-reveal/RubberBand';
 import Zoom from 'react-reveal/Zoom';
+import   { Routes, Route, Link }   from 'react-router-dom'
+import Video from "./components/Video/Video";
+
+
+
 
 function App() {
   return (
@@ -26,7 +31,11 @@ function App() {
              <Servise/>
              </Zoom>
            </div>
+           <div>
+             <Video/>
+           </div>
     </div>
+  
   );
   }
 

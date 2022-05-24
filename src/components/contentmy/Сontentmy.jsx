@@ -1,15 +1,17 @@
 import React from 'react'
 import styles from "./Сontentmy.module.scss"
-import Spin from 'react-reveal/Spin';
 import LightSpeed from 'react-reveal/LightSpeed';
 import Reveal from 'react-reveal/Reveal';
 import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+
+
 
 const Сontentmy = () => {
-  return (<div className={styles.wrappercontent}>
-      <Spin>
+  return (<div id="contentmy" className={styles.wrappercontent}>
+      <Bounce left>
       <div className={styles.TextDeveloper}>Разрабатываем сайты более 10 лет</div>
-      </Spin>
+      </Bounce>
       <LightSpeed>
             <div className={styles.wrappercontenttext}>
                 <div className={styles.contentleft}>Ваш сайт является первым контактным лицом для вашей организации. Ваш сайт должен вызывать у ваших клиентов уверенность в том, что они покупают качественный продукт или услугу. Я разрабатываю, кодирую и продаю десятки сайтов в год. Это дает мне уникальный взгляд на внутреннюю работу и стратегии многих компаний. Я вижу, что работает, а что нет. Я применю этот опыт в вашей организации, чтобы дать вам конкурентное преимущество.</div>

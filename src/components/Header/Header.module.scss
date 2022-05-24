@@ -8,32 +8,23 @@
 
 .menuwrapper {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 500px;
+   justify-content:space-between;
+   font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+
 }
 
 .menu {
     list-style-type: none;
     padding-right: 10px;
     border-radius: 2px solid #EDEDED;
-  
-    
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    color: #dde8da;
 
-    
-    > li {
-        display: inline-block;
-    > a {
-        display: block;
-        font-size: 20px;
-        font-family: 'Comfortaa', cursive;
-        color: #dde8da;
-        font-weight: 400;
-        padding: 0 6px;
-        text-decoration: none;
-
-    }
-    }
 }
+
 
 .buttonwrapper {
     display: flex;
@@ -65,5 +56,11 @@
     color: #dde8da;
     transform: translateY(-7px);
   }  
-
-  
+  a {
+    text-decoration:none;
+    color: #dde8da;
+}
+a:hover {
+    color: #265519;
+    transform: translateY(-7px);
+}
