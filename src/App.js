@@ -6,16 +6,14 @@ import "./components/App.css"
 import Contentmy from "./components/contentmy/Сontentmy"
 import Tada from 'react-reveal/Tada';
 import RubberBand from 'react-reveal/RubberBand';
-import Zoom from 'react-reveal/Zoom';
-import   { Routes, Route, Link }   from 'react-router-dom'
 import Video from "./components/Video/Video";
-
-
+import Devise from "./components/Devise/Devise";
 
 
 function App() {
+  
   return (
-    <div>
+    <div> 
          <div class="bg_image">
            <RubberBand>
              <Header/>
@@ -24,15 +22,17 @@ function App() {
             <Tada>
                <Article/>
                </Tada>
+               
           </div> 
                 <Contentmy/>
            <div class="bg_imageservise" >
-             <Zoom>
              <Servise/>
-             </Zoom>
            </div>
            <div>
              <Video/>
+           </div>
+           <div class="bg_imaDevise" >
+           <Devise/>
            </div>
     </div>
   

@@ -1,6 +1,37 @@
 .playerwrapper{
-    display: flex;
-    align-content:center;
+    position: relative;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows:repeat(3, 1fr);
     padding-top: 50px;
+    row-gap: 15px;
+    padding-left: 135px;
+    padding-bottom: 20px;
+     
+}
+
+.zagolovok {
+    padding-top: 50px;
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+    color: #813232;
+    font-size: 30px;
+    font-weight: 900;
     justify-content: center;
+
+
+}
+
+.tittle {
+    padding-top: 30px;
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+    color: #45613d;
+    font-size: 30px;
+    font-weight: 900;
+    justify-content: center;
+
+
+
+
 }

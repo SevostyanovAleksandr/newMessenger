@@ -36,6 +36,7 @@
 
 .button {
     margin-top: 30px;
+    margin-bottom: 30px;
     text-decoration: none;
     display: inline-block;
     width: 200px;
@@ -54,7 +55,7 @@
     transition: .3s;
   }
   .button:hover {
-    background: #f4e43b;
+    background: #286a51;
     box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
     color: white;
     transform: translateY(-7px);
